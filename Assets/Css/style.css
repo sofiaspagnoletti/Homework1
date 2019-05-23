@@ -1,0 +1,88 @@
+.header {
+    border-color: #cccccc;
+    padding: 10px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+/* 
+body {
+    background-image: url("./Assets/Images/email-pattern.png");
+} */
+
+body {
+    background-image: url("Assets/Images/white-waves.png");
+    background-repeat: repeat;
+
+}
+
+.my-name {
+    display: inline;
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+.sub-title {
+    color: #4aaaa5
+}
+
+
+.top-bar {
+    background-color: white;
+}
+.links {
+    display: inline;
+    float: right;
+    color: white;
+}
+.my-pic {
+    padding: 10px;
+    float: left;
+    width: 100px;
+    height:165px;
+}
+.center-pane {
+    width: 960px;
+    float: center;
+    margin: auto;
+    padding: 10px;    
+}
+
+.content {
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+#msg {
+    width: 950px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #666666;
+    padding: 10px;
+    border: 1px;
+    border-color:#4aaaa5;
+    color: white;
+    font-size: 8px;
+
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    width:400px;
+    height:200px
+  }
+
+  .imgtext {
+      font-size: 12px;
+      background-color: #4aaaa5;
+      color: white;
+      top:90%;
+      width:400px;
+      position: absolute;
+  }
